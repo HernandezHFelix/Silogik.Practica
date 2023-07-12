@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "gjeRy/V1wyAsOYH1HVCTiqTrDDO91wjaXu0lRhQIPvy6tCuZnWOCnhJqSLY4uOxA2prcr4o+H3+4G/CIwJ8gBg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ACTIVO-0666\\Desktop\\repositories\\PracticaSilogik\\backend\\Silogik.Api\\Silogik.Api\\Silogik.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ACTIVO-0666\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\ACTIVO-0666\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\ACTIVO-0666\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\ACTIVO-0666\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\ACTIVO-0666\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\ACTIVO-0666\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
