@@ -1,0 +1,12 @@
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.Entities\bin\Debug\net6.0\Silogik.Entities.deps.json
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.Entities\bin\Debug\net6.0\Silogik.Entities.dll
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.Entities\bin\Debug\net6.0\Silogik.Entities.pdb
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.Entities\obj\Debug\net6.0\Silogik.Entities.csproj.AssemblyReference.cache
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.Entities\obj\Debug\net6.0\Silogik.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.Entities\obj\Debug\net6.0\Silogik.Entities.AssemblyInfoInputs.cache
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.Entities\obj\Debug\net6.0\Silogik.Entities.AssemblyInfo.cs
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.Entities\obj\Debug\net6.0\Silogik.Entities.csproj.CoreCompileInputs.cache
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.Entities\obj\Debug\net6.0\Silogik.Entities.dll
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.Entities\obj\Debug\net6.0\refint\Silogik.Entities.dll
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.Entities\obj\Debug\net6.0\Silogik.Entities.pdb
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.Entities\obj\Debug\net6.0\ref\Silogik.Entities.dll

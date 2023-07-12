@@ -10,4 +10,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Silogik.Domain\Silogik.Domain.csproj" />
+    <ProjectReference Include="..\Silogik.Infraesctructura.InjeccionDependencia\Silogik.Infraesctructura.InjeccionDependencia.csproj" />
+  </ItemGroup>
+
 </Project>

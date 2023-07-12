@@ -1,0 +1,12 @@
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.DataAccess\bin\Debug\net6.0\Silogik.DataAccess.deps.json
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.DataAccess\bin\Debug\net6.0\Silogik.DataAccess.dll
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.DataAccess\bin\Debug\net6.0\Silogik.DataAccess.pdb
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.DataAccess\obj\Debug\net6.0\Silogik.DataAccess.csproj.AssemblyReference.cache
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.DataAccess\obj\Debug\net6.0\Silogik.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.DataAccess\obj\Debug\net6.0\Silogik.DataAccess.AssemblyInfoInputs.cache
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.DataAccess\obj\Debug\net6.0\Silogik.DataAccess.AssemblyInfo.cs
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.DataAccess\obj\Debug\net6.0\Silogik.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.DataAccess\obj\Debug\net6.0\Silogik.DataAccess.dll
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.DataAccess\obj\Debug\net6.0\refint\Silogik.DataAccess.dll
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.DataAccess\obj\Debug\net6.0\Silogik.DataAccess.pdb
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.DataAccess\obj\Debug\net6.0\ref\Silogik.DataAccess.dll

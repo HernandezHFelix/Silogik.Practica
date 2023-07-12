@@ -1,0 +1,15 @@
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.Infraestructura.Data\bin\Debug\net6.0\Silogik.Infraestructura.Data.deps.json
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.Infraestructura.Data\bin\Debug\net6.0\Silogik.Infraestructura.Data.dll
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.Infraestructura.Data\bin\Debug\net6.0\Silogik.Infraestructura.Data.pdb
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.Infraestructura.Data\obj\Debug\net6.0\Silogik.Infraestructura.Data.csproj.AssemblyReference.cache
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.Infraestructura.Data\obj\Debug\net6.0\Silogik.Infraestructura.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.Infraestructura.Data\obj\Debug\net6.0\Silogik.Infraestructura.Data.AssemblyInfoInputs.cache
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.Infraestructura.Data\obj\Debug\net6.0\Silogik.Infraestructura.Data.AssemblyInfo.cs
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.Infraestructura.Data\obj\Debug\net6.0\Silogik.Infraestructura.Data.csproj.CoreCompileInputs.cache
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.Infraestructura.Data\obj\Debug\net6.0\Silogik.Infraestructura.Data.dll
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.Infraestructura.Data\obj\Debug\net6.0\refint\Silogik.Infraestructura.Data.dll
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.Infraestructura.Data\obj\Debug\net6.0\Silogik.Infraestructura.Data.pdb
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.Infraestructura.Data\obj\Debug\net6.0\ref\Silogik.Infraestructura.Data.dll
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.Infraestructura.Data\bin\Debug\net6.0\Silogik.Domain.dll
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.Infraestructura.Data\bin\Debug\net6.0\Silogik.Domain.pdb
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.Infraestructura.Data\obj\Debug\net6.0\Silogik.Infraestructura.Data.csproj.CopyComplete

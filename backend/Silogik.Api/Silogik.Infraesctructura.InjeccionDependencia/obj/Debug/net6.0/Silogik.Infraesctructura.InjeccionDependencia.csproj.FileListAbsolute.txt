@@ -1,0 +1,17 @@
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.Infraesctructura.InjeccionDependencia\obj\Debug\net6.0\Silogik.Infraesctructura.InjeccionDependencia.csproj.AssemblyReference.cache
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.Infraesctructura.InjeccionDependencia\obj\Debug\net6.0\Silogik.Infraesctructura.InjeccionDependencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.Infraesctructura.InjeccionDependencia\obj\Debug\net6.0\Silogik.Infraesctructura.InjeccionDependencia.AssemblyInfoInputs.cache
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.Infraesctructura.InjeccionDependencia\obj\Debug\net6.0\Silogik.Infraesctructura.InjeccionDependencia.AssemblyInfo.cs
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.Infraesctructura.InjeccionDependencia\obj\Debug\net6.0\Silogik.Infraesctructura.InjeccionDependencia.csproj.CoreCompileInputs.cache
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.Infraesctructura.InjeccionDependencia\bin\Debug\net6.0\Silogik.Infraesctructura.InjeccionDependencia.deps.json
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.Infraesctructura.InjeccionDependencia\bin\Debug\net6.0\Silogik.Infraesctructura.InjeccionDependencia.dll
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.Infraesctructura.InjeccionDependencia\bin\Debug\net6.0\Silogik.Infraesctructura.InjeccionDependencia.pdb
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.Infraesctructura.InjeccionDependencia\bin\Debug\net6.0\Silogik.Domain.dll
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.Infraesctructura.InjeccionDependencia\bin\Debug\net6.0\Silogik.Infraestructura.Data.dll
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.Infraesctructura.InjeccionDependencia\bin\Debug\net6.0\Silogik.Domain.pdb
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.Infraesctructura.InjeccionDependencia\bin\Debug\net6.0\Silogik.Infraestructura.Data.pdb
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.Infraesctructura.InjeccionDependencia\obj\Debug\net6.0\Silogik.Infraesctructura.InjeccionDependencia.csproj.CopyComplete
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.Infraesctructura.InjeccionDependencia\obj\Debug\net6.0\Silogik.Infraesctructura.InjeccionDependencia.dll
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.Infraesctructura.InjeccionDependencia\obj\Debug\net6.0\refint\Silogik.Infraesctructura.InjeccionDependencia.dll
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.Infraesctructura.InjeccionDependencia\obj\Debug\net6.0\Silogik.Infraesctructura.InjeccionDependencia.pdb
+C:\Users\ACTIVO-0666\Desktop\repositories\PracticaSilogik\backend\Silogik.Api\Silogik.Infraesctructura.InjeccionDependencia\obj\Debug\net6.0\ref\Silogik.Infraesctructura.InjeccionDependencia.dll
