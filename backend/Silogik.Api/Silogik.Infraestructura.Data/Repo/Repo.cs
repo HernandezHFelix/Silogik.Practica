@@ -2,6 +2,7 @@
 using Silogik.Infraestructura.Data.DataContext;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
@@ -13,7 +14,7 @@ namespace Silogik.Infraestructura.Data.Repo
     {
         #region Private Fields
 
-        private SqlDataReader dataReader;
+        private DataTable dTabla;
         private bool isSuccess;
         private bool disposedValue;
 
@@ -21,14 +22,14 @@ namespace Silogik.Infraestructura.Data.Repo
 
         #region Public Methods
 
-        public async Task<SqlDataReader> execuetReader(string strProd, SqlParameter[] parameters)
+        public async Task<DataTable> execuetReader(string strProd, SqlParameter[] parameters)
         {
             using (DbContext context = new DbContext())
             {
                 try
                 {
                     context.Open();
-                    dataReader = await context.executeQuery(strProd, parameters);
+                    dTabla = await context.executeQuery(strProd, parameters);
                 }
                 catch (Exception)
                 {
@@ -39,7 +40,7 @@ namespace Silogik.Infraestructura.Data.Repo
                     context.Close();
                 }
             }
-            return dataReader;
+            return dTabla;
         }
 
         public async Task<bool> execuetNonReader(string strProd, SqlParameter[] parameters)

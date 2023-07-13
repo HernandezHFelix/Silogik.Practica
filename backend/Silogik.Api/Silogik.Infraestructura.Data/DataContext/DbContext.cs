@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
@@ -13,6 +14,7 @@ namespace Silogik.Infraestructura.Data.DataContext
 
         private bool disposedValue;
         private SqlConnection connection;
+        private DataTable dSet = new DataTable();
         private string DataSource = string.Empty;
         private string Catalog = string.Empty;
         private string user = string.Empty;
@@ -58,13 +60,15 @@ namespace Silogik.Infraestructura.Data.DataContext
             }
         }
 
-        public async Task<SqlDataReader> executeQuery(string strProd, SqlParameter[] sqlParams)
-        {
+        public async Task<DataTable> executeQuery(string strProd, SqlParameter[] sqlParams)
+        { 
             using (SqlCommand cmd = new SqlCommand(strProd, connection))
             {
                 cmd.CommandType = System.Data.CommandType.StoredProcedure;
                 cmd.Parameters.AddRange(sqlParams);
-                return await cmd.ExecuteReaderAsync();
+                var reader = await cmd.ExecuteReaderAsync();
+                dSet.Load(reader);
+                return dSet;
             }
         }
 

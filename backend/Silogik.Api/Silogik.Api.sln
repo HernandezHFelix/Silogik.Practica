@@ -5,12 +5,6 @@ VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Silogik.Api", "Silogik.Api\Silogik.Api.csproj", "{CA8EE160-465F-415D-80E6-CCB3CA762145}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Silogik.Business", "Silogik.Business\Silogik.Business.csproj", "{F34C49C2-26C8-4DB0-8FB8-876979A4B308}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Silogik.DataAccess", "Silogik.DataAccess\Silogik.DataAccess.csproj", "{94EAEB0E-8F24-4E45-9453-6F7B39E1FD85}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Silogik.Core", "Silogik.Core\Silogik.Core.csproj", "{D93697E9-4C9C-4115-974A-3E8964E44FD8}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Silogik.Infraestructura.Data", "Silogik.Infraestructura.Data\Silogik.Infraestructura.Data.csproj", "{B2005235-4A5E-4D95-BFEE-74E387AA8178}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Silogik.Domain", "Silogik.Domain\Silogik.Domain.csproj", "{FB5A7B43-C351-497A-A5A0-1653E8029A8A}"
@@ -27,18 +21,6 @@ Global
 		{CA8EE160-465F-415D-80E6-CCB3CA762145}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA8EE160-465F-415D-80E6-CCB3CA762145}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA8EE160-465F-415D-80E6-CCB3CA762145}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F34C49C2-26C8-4DB0-8FB8-876979A4B308}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F34C49C2-26C8-4DB0-8FB8-876979A4B308}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F34C49C2-26C8-4DB0-8FB8-876979A4B308}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F34C49C2-26C8-4DB0-8FB8-876979A4B308}.Release|Any CPU.Build.0 = Release|Any CPU
-		{94EAEB0E-8F24-4E45-9453-6F7B39E1FD85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{94EAEB0E-8F24-4E45-9453-6F7B39E1FD85}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{94EAEB0E-8F24-4E45-9453-6F7B39E1FD85}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{94EAEB0E-8F24-4E45-9453-6F7B39E1FD85}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D93697E9-4C9C-4115-974A-3E8964E44FD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D93697E9-4C9C-4115-974A-3E8964E44FD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D93697E9-4C9C-4115-974A-3E8964E44FD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D93697E9-4C9C-4115-974A-3E8964E44FD8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B2005235-4A5E-4D95-BFEE-74E387AA8178}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B2005235-4A5E-4D95-BFEE-74E387AA8178}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2005235-4A5E-4D95-BFEE-74E387AA8178}.Release|Any CPU.ActiveCfg = Release|Any CPU

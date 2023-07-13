@@ -22,5 +22,12 @@ namespace Silogik.Api.Controllers
         {
             return await contactoRepositorio.ObtieneContactos();
         }
+
+        [HttpPost]
+        [Route("addContacto")]
+        public async Task<ActionResult<ContactoEntity>> AgregaContacto(ContactoEntity entity)
+        {
+            return await contactoRepositorio.GuardaContacto(entity);
+        }
     }
 }
