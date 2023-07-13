@@ -1,4 +1,4 @@
-﻿using Silogik.Business.Interfaces.Repositorio;
+﻿using Silogik.Domain.Interfaces.Repositorio;
 using Silogik.Domain.Entities;
 using Silogik.Infraestructura.Data.Repo;
 using System;
@@ -15,16 +15,16 @@ namespace Silogik.Core.Repositorio
     {
         public async Task<ContactoEntity> GuardaContacto(ContactoEntity entity)
         {
-            using (Repo repo = new Repo()) {
-                string prod = "sp_guarda_contacto";
-                SqlParameter[] param = new SqlParameter[] {
+            using (RepoUnitOrWork repo = new RepoUnitOrWork()) {
+                string strProcedimiento = "sp_guarda_contacto";
+                SqlParameter[] parametros = new SqlParameter[] {
                     new SqlParameter("@pNombre", entity.Nombre),
                     new SqlParameter("@pApellidos", entity.Apellidos),
                     new SqlParameter("@pEmail", entity.Email),
                     new SqlParameter("@pComentario", entity.Comentario),
                     new SqlParameter("@pArchivo", entity.Archivo)
                 };
-                await repo.execuetNonReader(prod, param);
+                await repo.ExecuteProcedureNonQueryAsync(strProcedimiento, parametros);
             }
             return entity;
         }
@@ -32,11 +32,11 @@ namespace Silogik.Core.Repositorio
         public async Task<List<ContactoEntity>> ObtieneContactos()
         {
             List<ContactoEntity> contactos = new List<ContactoEntity>();
-            using (Repo rep = new Repo())
+            using (RepoUnitOrWork repo = new RepoUnitOrWork())
             {
-                string prod = "sp_Obtiene_Contactos";
-                SqlParameter[] param = new SqlParameter[] { };
-                DataTable infoTabla = await rep.execuetReader(prod, param);
+                string strProcedimiento = "sp_Obtiene_Contactos";
+                SqlParameter[] parametros = new SqlParameter[] { };
+                DataTable infoTabla = await repo.ExecuteProcedureQueryAsync(strProcedimiento, parametros);
                 foreach(DataRow fila in infoTabla.Rows) 
                 {
                     contactos.Add(new ContactoEntity()

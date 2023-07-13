@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Silogik.Business.Interfaces.Repositorio;
 using Silogik.Domain.Entities;
+using Silogik.Domain.Interfaces.Repositorio;
 
 namespace Silogik.Api.Controllers
 {

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Silogik.Business.Interfaces.Repositorio
+namespace Silogik.Domain.Interfaces.Repositorio
 {
     public interface IContactoRepositorio
     {

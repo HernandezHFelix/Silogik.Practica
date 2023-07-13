@@ -8,6 +8,9 @@ namespace Silogik.Domain.Entities
 {
     public class TraductorEntity
     {
+        public string tipo_etiqueta { get; set; }
+
+        public string letra_traduccion { get; set; }
 
     }
 }

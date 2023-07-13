@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using Silogik.Business.Interfaces.Repositorio;
+using Silogik.Domain.Interfaces.Repositorio;
 using Silogik.Core.Repositorio;
+using Silogik.Infraestructura.Data.Repositorio;
 
 namespace Silogik.Infraesctructura.InjeccionDependencia
 {
@@ -8,10 +9,10 @@ namespace Silogik.Infraesctructura.InjeccionDependencia
     {
         public static void RegisterServices(IServiceCollection services)
         {
-
             #region Infraestructura
 
             services.AddScoped<IContactoRepositorio, ContactoRepositorio>();
+            services.AddScoped<ITraductorRepositorio, TraductorRepositorio>();
 
             #endregion
         }

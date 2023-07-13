@@ -1,83 +1,28 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Silogik.Api.Models;
+using Silogik.Domain.Interfaces.Repositorio;
+using Silogik.Core.Repositorio;
+using Silogik.Domain.Entities;
 
 namespace Silogik.Api.Controllers
 {
+    [ApiController]
+    [Route("api/traductor")]
     public class TraductorController : Controller
     {
-        // GET: TraductorController
-        public ActionResult Index()
+        private readonly ITraductorRepositorio traductorRepositorio;
+
+        public TraductorController(ITraductorRepositorio itraductorRepositorio)
         {
-            return View();
+            traductorRepositorio = itraductorRepositorio;
         }
 
-        // GET: TraductorController/Details/5
-        public ActionResult Details(int id)
-        {
-            return View();
-        }
-
-        // GET: TraductorController/Create
-        public ActionResult Create()
-        {
-            return View();
-        }
-
-        // POST: TraductorController/Create
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        [Route("getTraduccion")]
+        public async Task<ActionResult<List<TraductorEntity>>> ObtienTraduccion(TraductorModel entity)
         {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: TraductorController/Edit/5
-        public ActionResult Edit(int id)
-        {
-            return View();
-        }
-
-        // POST: TraductorController/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: TraductorController/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
-        // POST: TraductorController/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
+            return await traductorRepositorio.ObtieneTraduccion(entity.TipoTraduccion);
         }
     }
 }

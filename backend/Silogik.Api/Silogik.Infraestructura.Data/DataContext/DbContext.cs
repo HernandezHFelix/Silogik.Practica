@@ -5,6 +5,8 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Configuration.Json;
 
 namespace Silogik.Infraestructura.Data.DataContext
 {
@@ -14,9 +16,10 @@ namespace Silogik.Infraestructura.Data.DataContext
 
         private bool disposedValue;
         private SqlConnection connection;
-        private DataTable dSet = new DataTable();
-        private string DataSource = string.Empty;
-        private string Catalog = string.Empty;
+        private DataTable queryTabla = new DataTable();
+        private SqlDataReader dataReader;
+        private string dataSource = string.Empty;
+        private string catalog = string.Empty;
         private string user = string.Empty;
         private string password = string.Empty;
 
@@ -24,15 +27,16 @@ namespace Silogik.Infraestructura.Data.DataContext
 
         public DbContext()
         {
-            DataSource = "DESKTOP-UUHLQ8G";
-            Catalog = "SilogikApp";
+            ConfigurationBuilder configurationBuilder = new ConfigurationBuilder();
+            IConfiguration config = configurationBuilder.AddJsonFile("appsettings.json").Build();
+
+            dataSource = config["connection:datasource"];
+            catalog = config["connection:catalog"];
 
             SqlConnectionStringBuilder strConnection = new SqlConnectionStringBuilder();
 
-            strConnection.DataSource = DataSource;
-            strConnection.InitialCatalog = Catalog;
-            //strConnection.UserID = "";
-            //strConnection.Password = "";
+            strConnection.DataSource = dataSource;
+            strConnection.InitialCatalog = catalog;
             strConnection.IntegratedSecurity = true;
 
             connection = new SqlConnection(strConnection.ConnectionString);
@@ -50,7 +54,7 @@ namespace Silogik.Infraestructura.Data.DataContext
                 connection.Close();
         }
 
-        public async Task executeNonQuery(string strProd, SqlParameter[] sqlParams)
+        public async Task ExecuteProcedureNonQueryAsync(string strProd, SqlParameter[] sqlParams)
         {
             using (SqlCommand cmd = new SqlCommand(strProd, connection))
             {
@@ -60,15 +64,15 @@ namespace Silogik.Infraestructura.Data.DataContext
             }
         }
 
-        public async Task<DataTable> executeQuery(string strProd, SqlParameter[] sqlParams)
+        public async Task<DataTable> ExecuteProcedureQueryAsync(string strProd, SqlParameter[] sqlParams)
         { 
             using (SqlCommand cmd = new SqlCommand(strProd, connection))
             {
                 cmd.CommandType = System.Data.CommandType.StoredProcedure;
                 cmd.Parameters.AddRange(sqlParams);
-                var reader = await cmd.ExecuteReaderAsync();
-                dSet.Load(reader);
-                return dSet;
+                dataReader = await cmd.ExecuteReaderAsync();
+                queryTabla.Load(dataReader);
+                return queryTabla;
             }
         }
 
@@ -83,13 +87,6 @@ namespace Silogik.Infraestructura.Data.DataContext
                 disposedValue = true;
             }
         }
-
-        // // TODO: reemplazar el finalizador solo si "Dispose(bool disposing)" tiene código para liberar los recursos no administrados
-        // ~DbContext()
-        // {
-        //     // No cambie este código. Coloque el código de limpieza en el método "Dispose(bool disposing)".
-        //     Dispose(disposing: false);
-        // }
 
         public void Dispose()
         {
